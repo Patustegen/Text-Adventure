@@ -381,7 +381,7 @@ int main() {
 			case 1503:
 				if (Inventario[1].hab == 1000 && habActual == 9) {
 					Inventario[1].tinc = true;
-					Inventario[1].hab == habActual;
+					Inventario[1].hab = habActual;
 					cout << "Has quitado la palanca azul de su sitio. \n";
 				}
 				else if (Inventario[1].tinc == true) cout << "Ya tienes la palanca. \n";
@@ -631,7 +631,7 @@ int main() {
 					Inventario[5].hab = 1;
 					cout << "Le das la PIEDRA. \n";
 					ConsoleSetColor(LIGHTGREY, BLACK);					
-					cout << "\t Muchas gracias!! Toma, seguro que tu le daras mejor utilidad a esto. \n"
+					cout << "\t Muchas gracias!! Toma, seguro que tu le daras mejor utilidad a esto. \n";
 					ConsoleSetColor(WHITE, BLACK);
 					cout << "Te ha dado unas CERILLAs \n";
 				}
